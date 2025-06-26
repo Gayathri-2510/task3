@@ -19,4 +19,4 @@ if response.status_code == 200:
             file.write(headline + '\n')
     print(f"Saved {len(headlines_texts)} headlines to 'headlines.txt'.")
 else:
-    print(f"Failed to retrieve the page. Status code: {response.status_code}")
+    print(f"Failed to retrieve the page.")
